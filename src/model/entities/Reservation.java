@@ -56,6 +56,10 @@ public class Reservation {
         this.checkout = checkout;
     }
 
+    public void updateCheckin(Date checkin) {
+        this.checkin = checkin;
+    }
+
     @Override
     public String toString() {
         return "Reservation: " +
